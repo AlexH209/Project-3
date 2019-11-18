@@ -56,7 +56,7 @@ function loadJSON(url){
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             //Version 1
-            let myArr = this.responseText//let myArr = JSON.parse(this.responseText)
+            let myArr = this.responseText;//let myArr = JSON.parse(this.responseText)
             //tQuestions = myArr.easyQ;
             //console.log(myArr);
             //Version 2
@@ -68,11 +68,6 @@ function loadJSON(url){
             if(url == "../options.html"){
                 optionsLoad(myArr);
                 console.log();
-            }
-            else if(url == "../page2.html")
-            {
-                //page2 stuff
-                page2Load(myArr);
             }
         }
         
@@ -163,13 +158,13 @@ function updateTime(){
 
 //------------------------------------------------------------//
 
-let easyButton = document.getElementById('easyButton'),
-    mediumButton = document.getElementById('mediumButton'),
-    hardButton = document.getElementById('hardButton'),
-    howButton = document.getElementById('howButton'),
-    optionsButton = document.getElementById('optionsButton'),
-    backButton = document.getElementById('backButton'),
-    optionsScreen = document.getElementById('optionsScreen');
+//let easyButton = document.getElementById('easyButton'),
+//    mediumButton = document.getElementById('mediumButton'),
+//    hardButton = document.getElementById('hardButton'),
+//    howButton = document.getElementById('howButton'),
+//    optionsButton = document.getElementById('optionsButton'),
+//    backButton = document.getElementById('backButton'),
+//    optionsScreen = document.getElementById('optionsScreen');
 
 //optionsButton.addEventListener('click', function (event) {
 //    menuButtons();
@@ -184,16 +179,16 @@ let easyButton = document.getElementById('easyButton'),
 //    });
 //});
 
-function menuButtons(){
-    easyButton.style.display = 'none';
-    mediumButton.style.display = 'none';
-    hardButton.style.display = 'none';
-    howButton.style.display = 'none';
-    optionsButton.style.display = 'none';
-    backButton.style.display = 'none';
-
-    easyButton.classList.display = 'none'
-}
+//function menuButtons(){
+//    easyButton.style.display = 'none';
+//    mediumButton.style.display = 'none';
+//    hardButton.style.display = 'none';
+//    howButton.style.display = 'none';
+//    optionsButton.style.display = 'none';
+//    backButton.style.display = 'none';
+//
+//    easyButton.classList.display = 'none'
+//}
 
 //-------------------------------------------------------------//
 
