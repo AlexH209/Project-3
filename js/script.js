@@ -56,12 +56,13 @@ function loadJSON(url){
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             //Version 1
-            let myArr = this.responseText;//let myArr = JSON.parse(this.responseText)
-            //tQuestions = myArr.easyQ;
-            //console.log(myArr);
+            //let myArr = this.responseText;
+            let myArr = JSON.parse(this.responseText);
+            tQuestions = myArr.easyQuestions;
+            console.log(myArr);
             //Version 2
-            tQuestions = JSON.parse(this.responseText).easyQuestions;
-            console.log(tQuestions);
+            //tQuestions = JSON.parse(this.responseText).easyQuestions;
+            //console.log(tQuestions);
             counter.innerText = timer;
             interval = setInterval(updateTime, 1000);
             loadQuestions();
@@ -169,32 +170,29 @@ injectOptionsBtn.addEventListener('click', function (event){
     mediumButton = document.getElementById('mediumButton'),
     hardButton = document.getElementById('hardButton'),
     howButton = document.getElementById('howButton'),
-    optionsButton = document.getElementById('optionsButton'),
-    backButton = document.getElementById('backButton'),
-    optionsScreen = document.getElementById('optionsScreen');
+    backButton = document.getElementById('backButton');
 
-optionsButton.addEventListener('click', function (event) {
-    menuButtons();
+    injectOptionsBtn.addEventListener('click', function (event) {
+    //menuButtons();
 
-    optionsScreen.innerHTML = '<div id="bgOptionsColor" class="bg-dark d-flex justify-content-center align-items-end pb-5 row" style="height: 100vh; width: 100vw; opacity: 75%;">' +
+    injectOptions.innerHTML = '<div id="bgOptionsColor" class="bg-dark d-flex justify-content-center align-items-end pb-5 row" style="height: 100vh; width: 100vw; opacity: 75%;">' +
         '<div class="col-12"><a href="#" id="musicButton" class="col-2 btn text-dark bg-white border-dark rounded-0" style="font-size: 35px; opacity: 75%;">Music On/Off</a></div>' +
-        '<div class="col-12"><a href="#" id="backMenuButton" class="col-2 btn text-dark bg-white border-dark rounded-0" style="font-size: 35px; opacity: 75%;">Back</a></div>'
+        '<div class="col-12"><a href="#" id="backMenuButton" class="col-2 btn text-dark bg-white border-dark rounded-0" style="font-size: 35px; opacity: 75%;">Back</a></div>';
 
     backMenuButton.addEventListener('click', function (event) {
-        optionsScreen.innerHTML = '';
-
+        injectOptions.innerHTML = '';
     });
-});
+});*/
 
-function menuButtons(){
+/*function menuButtons(){
     easyButton.style.display = 'none';
     mediumButton.style.display = 'none';
     hardButton.style.display = 'none';
     howButton.style.display = 'none';
-    optionsButton.style.display = 'none';
+    injectOptionsBtn.style.display = 'none';
     backButton.style.display = 'none';
 
-    easyButton.classList.display = 'none'
+    easyButton.classList.display = 'none';
 }*/
 
 //-------------------------------------------------------------//
