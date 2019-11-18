@@ -10,6 +10,8 @@ let totalHealth = 100;
 let tQuestions = [];
 
 let easyMode = "../data/easy.json";
+let mediumMode = "../data/medium.json";
+let hardMode = "../data/hard.json";
 
 let qNum = 0;
 
