@@ -57,12 +57,12 @@ function loadJSON(url){
         if (this.readyState == 4 && this.status == 200) {
             //Version 1
             //let myArr = this.responseText;
-            let myArr = JSON.parse(this.responseText);
-            tQuestions = myArr.easyQuestions;
-            console.log(myArr);
+            //let myArr = JSON.parse(this.responseText);
+            //tQuestions = myArr.easyQuestions;
+            //console.log(myArr);
             //Version 2
-            //tQuestions = JSON.parse(this.responseText).easyQuestions;
-            //console.log(tQuestions);
+            tQuestions = JSON.parse(this.responseText).easyQuestions;
+            console.log(tQuestions);
             counter.innerText = timer;
             interval = setInterval(updateTime, 1000);
             loadQuestions();
@@ -94,6 +94,10 @@ function checkAnswer(answer){
     //Retrieve the answer and see if it is correct
     //Increment your correct number
 
+    if(answer !== tQuestions[qNum].correct){
+        currentHealth = currentHealth - 6.25;
+    }
+    health.innerText = `${currentHealth}/${totalHealth}`;
     if(answer === tQuestions[qNum].correct){
         totalScore++;
     }
@@ -105,10 +109,7 @@ function checkAnswer(answer){
     counter.innerText = timer;
     //Go to next Question
     nextQuestion();
-    if(answer !== tQuestions[qNum].correct){
-        currentHealth = currentHealth - 6.25;
-    }
-    health.innerText = `${currentHealth}/${totalHealth}`;
+    
 }
 
 //-----Next Question-----//
