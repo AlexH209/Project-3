@@ -31,7 +31,7 @@ let a3 = document.getElementById('a3');
 let a4 = document.getElementById('a4');
 
 let injectOptions = document.getElementById('injectOptions');
-let injectOptionsBtn = document.getElementById('injectOpotionsBtn');
+let injectOptionsBtn = document.getElementById('injectOptionsBtn');
 
 //-----Get our Buttons and add EventListeners-----//
 
@@ -67,11 +67,9 @@ function loadJSON(url){
             loadQuestions();
             if(url == "../options.html"){
                 optionsLoad(myArr);
-                console.log();
+                console.log(myArr);
             }
         }
-        
-        
     };
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
@@ -155,6 +153,15 @@ function updateTime(){
         counter.innerText = timer;
     }
 }
+//------------------------------------------------------------//
+
+function optionsLoad(info){
+    injectOptions.innerHTML = info;
+}
+
+injectOptionsBtn.addEventListener('click', function (event){
+    loadJSON("../options.html");
+});
 
 //------------------------------------------------------------//
 
@@ -192,6 +199,12 @@ function menuButtons(){
 
 //-------------------------------------------------------------//
 
-function optionsLoad(info){
-    injectOptions.innerHTML = info;
-}
+/*function allQuestions(q){
+    console.log(q.easyQuestions[26]);
+    let qNum = 0;
+    for (let i = 0; i < totalQuestions; i++){
+        qNum = Math.floor(Math.random() * q.ezQ.length);
+        triviaQ.push(q.easyQuestions[qNum]);
+        q.easyQuestions.splice(qNum, 1);
+    }
+}*/
