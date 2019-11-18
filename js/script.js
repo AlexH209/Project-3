@@ -10,6 +10,8 @@ let totalHealth = 100;
 let tQuestions = [];
 
 let easyMode = "../data/easy.json";
+let mediumMode = "../data/medium.json";
+let hardMode = "../data/hard.json";
 
 let qNum = 0;
 
@@ -29,7 +31,7 @@ let a3 = document.getElementById('a3');
 let a4 = document.getElementById('a4');
 
 let injectOptions = document.getElementById('injectOptions');
-let injectOptionsBtn = document.getElementById('injectOpotionsBtn');
+let injectOptionsBtn = document.getElementById('injectOptionsBtn');
 
 //-----Get our Buttons and add EventListeners-----//
 
@@ -54,27 +56,21 @@ function loadJSON(url){
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             //Version 1
-            let myArr = this.responseText//let myArr = JSON.parse(this.responseText)
-            //tQuestions = myArr.easyQ;
-            //console.log(myArr);
+            //let myArr = this.responseText;
+            let myArr = JSON.parse(this.responseText);
+            tQuestions = myArr.easyQuestions;
+            console.log(myArr);
             //Version 2
-            tQuestions = JSON.parse(this.responseText).easyQuestions;
-            console.log(tQuestions);
+            //tQuestions = JSON.parse(this.responseText).easyQuestions;
+            //console.log(tQuestions);
             counter.innerText = timer;
             interval = setInterval(updateTime, 1000);
             loadQuestions();
             if(url == "../options.html"){
                 optionsLoad(myArr);
-                console.log();
-            }
-            else if(url == "../page2.html")
-            {
-                //page2 stuff
-                page2Load(myArr);
+                console.log(myArr);
             }
         }
-        
-        
     };
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
@@ -158,6 +154,15 @@ function updateTime(){
         counter.innerText = timer;
     }
 }
+//------------------------------------------------------------//
+
+injectOptionsBtn.addEventListener('click', function (event){
+    loadJSON("../options.html");
+});
+
+function optionsLoad(info){
+    injectOptions.innerHTML = info;
+}
 
 //------------------------------------------------------------//
 
@@ -165,36 +170,39 @@ let easyButton = document.getElementById('easyButton'),
     mediumButton = document.getElementById('mediumButton'),
     hardButton = document.getElementById('hardButton'),
     howButton = document.getElementById('howButton'),
-    optionsButton = document.getElementById('optionsButton'),
-    backButton = document.getElementById('backButton'),
-    optionsScreen = document.getElementById('optionsScreen');
+    backButton = document.getElementById('backButton');
 
-optionsButton.addEventListener('click', function (event) {
-    menuButtons();
+    injectOptionsBtn.addEventListener('click', function (event) {
+    //menuButtons();
 
-    optionsScreen.innerHTML = '<div id="bgOptionsColor" class="bg-dark d-flex justify-content-center align-items-end pb-5 row" style="height: 100vh; width: 100vw; opacity: 75%;">' +
+    injectOptions.innerHTML = '<div id="bgOptionsColor" class="bg-dark d-flex justify-content-center align-items-end pb-5 row" style="height: 100vh; width: 100vw; opacity: 75%;">' +
         '<div class="col-12"><a href="#" id="musicButton" class="col-2 btn text-dark bg-white border-dark rounded-0" style="font-size: 35px; opacity: 75%;">Music On/Off</a></div>' +
-        '<div class="col-12"><a href="#" id="backMenuButton" class="col-2 btn text-dark bg-white border-dark rounded-0" style="font-size: 35px; opacity: 75%;">Back</a></div>'
+        '<div class="col-12"><a href="#" id="backMenuButton" class="col-2 btn text-dark bg-white border-dark rounded-0" style="font-size: 35px; opacity: 75%;">Back</a></div>';
 
     backMenuButton.addEventListener('click', function (event) {
-        optionsScreen.innerHTML = '';
-
+        injectOptions.innerHTML = '';
     });
 });
 
-function menuButtons(){
+/*function menuButtons(){
     easyButton.style.display = 'none';
     mediumButton.style.display = 'none';
     hardButton.style.display = 'none';
     howButton.style.display = 'none';
-    optionsButton.style.display = 'none';
+    injectOptionsBtn.style.display = 'none';
     backButton.style.display = 'none';
 
-    easyButton.classList.display = 'none'
-}
+    easyButton.classList.display = 'none';
+}*/
 
 //-------------------------------------------------------------//
 
-function optionsLoad(info){
-    injectOptions.innerHTML = info;
-}
+/*function allQuestions(q){
+    console.log(q.easyQuestions[26]);
+    let qNum = 0;
+    for (let i = 0; i < totalQuestions; i++){
+        qNum = Math.floor(Math.random() * q.ezQ.length);
+        triviaQ.push(q.easyQuestions[qNum]);
+        q.easyQuestions.splice(qNum, 1);
+    }
+}*/
