@@ -1,0 +1,84 @@
+{
+    "mediumQuestions" : [
+        {
+            "q" : "Which legendary Pokemon is the first according to Pokedex?",
+            "b1" : "Zapdos",
+            "b2" : "Articuno",
+            "b3" : "Ho-Oh",
+            "b4" : "Moltres",
+            "correct" : "Articuno"
+        },
+        {
+            "q" : "Which legendary Pokemon is the second according to Pokedex?",
+            "a1" : "Zapdos",
+            "a2" : "Articuno",
+            "a3" : "Ho-Oh",
+            "a4" : "Moltres",
+            "correct" : "Zapdos"
+        },
+        {
+            "q" : "Which legendary Pokemon is the third according to Pokedex?",
+            "a1" : "Zapdos",
+            "a2" : "Articuno",
+            "a3" : "Ho-Oh",
+            "a4" : "Moltres",
+            "correct" : "Moltres"
+        },
+        {
+            "q" : "Which legendary Pokemon is the fourth according to Pokedex?",
+            "a1" : "Mewtwo",
+            "a2" : "Entei",
+            "a3" : "Suicune",
+            "a4" : "Lugia",
+            "correct" : "Mewtwo"
+        },
+        {
+            "q" : "Which legendary Pokemon is the fifth according to Pokedex?",
+            "a1" : "Raikou",
+            "a2" : "Mew",
+            "a3" : "Suicune",
+            "a4" : "Lugia",
+            "correct" : "Mew"
+        },
+        {
+            "q" : "Which legendary Pokemon is the sixth according to Pokedex?",
+            "a1" : "Raikou",
+            "a2" : "Entei",
+            "a3" : "Torchic",
+            "a4" : "Lugia",
+            "correct" : "Raikou"
+        },
+        {
+            "q" : "Which legendary Pokemon is the seventh according to Pokedex?",
+            "a1" : "Raikou",
+            "a2" : "Entei",
+            "a3" : "Suicune",
+            "a4" : "Rayquaza",
+            "correct" : "Entei"
+        },
+        {
+            "q" : "Which legendary Pokemon is the eighth according to Pokedex?",
+            "a1" : "Celebi",
+            "a2" : "Ho-Oh",
+            "a3" : "Lugia",
+            "a4" : "Suicine",
+            "correct" : "Suicine"
+        },
+        {
+            "q" : "Which legendary Pokemon is the ninth according to Pokedex?",
+            "a1" : "Pikachu",
+            "a2" : "Raichu",
+            "a3" : "Lugia",
+            "a4" : "Pichu",
+            "correct" : "Lugia"
+        },
+        {
+            "q" : "Which legendary Pokemon is the tenth according to Pokedex?",
+            "a1" : "Zapdos",
+            "a2" : "Mewtwo",
+            "a3" : "Victini",
+            "a4" : "Ho-Oh",
+            "correct" : "Ho-Oh"
+        }
+    ]
+}

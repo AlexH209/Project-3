@@ -1,0 +1,487 @@
+{
+    "easyQuestions":[
+        {
+            "q" : "Which Pokemon was Ash's first Pokemon?",
+            "a1" : "Charizard",
+            "a2" : "Blastoise",
+            "a3" : "Pikachu",
+            "a4" : "Venusaur",
+            "correct" : "Pikachu"
+        },
+        {
+            "q" : "Which Pokemon was Ash's second Pokemon?",
+            "a1" : "Bulbasaur",
+            "a2" : "Caterpie",
+            "a3" : "Rayquaza",
+            "a4" : "Treecko",
+            "correct" : "Caterpie"
+        },
+        {
+            "q" : "Which Pokemon was Ash's third Pokemon?",
+            "a1" : "Torchic",
+            "a2" : "Taillow",
+            "a3" : "Pidgeotto",
+            "a4" : "Ho-Oh",
+            "correct" : "Pidgeotto"
+        },
+        {
+            "q" : "Which Pokemon was Ash's fourth Pokemon?",
+            "a1" : "Squirtle",
+            "a2" : "Pikachu",
+            "a3" : "Charmander",
+            "a4" : "Bulbasaur",
+            "correct" : "Bulbasaur"
+        },
+        {
+            "q" : "Which Pokemon was Ash's fifth Pokemon?",
+            "a1" : "Mew",
+            "a2" : "Charmander",
+            "a3" : "Manaphy",
+            "a4" : "Zweilous",
+            "correct" : "Charmander"
+        },
+        {
+            "q" : "Which Pokemon was Ash's sixth Pokemon?",
+            "a1" : "Sandslash",
+            "a2" : "Squirtle",
+            "a3" : "Bagon",
+            "a4" : "Herdier",
+            "correct" : "Squirtle"
+        },
+        {
+            "q" : "Which Pokemon was Ash's seventh Pokemon?",
+            "a1" : "Krabby",
+            "a2" : "Cacnea",
+            "a3" : "Arceus",
+            "a4" : "Aerodactyl",
+            "correct" : "Krabby"
+        },
+        {
+            "q" : "Which Pokemon was Ash's eighth Pokemon?",
+            "a1" : "Ariados",
+            "a2" : "Krabby",
+            "a3" : "Shieldon",
+            "a4" : "Raticate",
+            "correct" : "Raticate"
+        },
+        {
+            "q" : "Which Pokemon was Ash's ninth Pokemon?",
+            "a1" : "Tranquill",
+            "a2" : "Haunter",
+            "a3" : "Ekans",
+            "a4" : "Carracosta",
+            "correct" : "Haunter"
+        },
+        {
+            "q" : "Which Pokemon was Ash's tenth Pokemon?",
+            "a1" : "Floazel",
+            "a2" : "Primeape",
+            "a3" : "Skiploom",
+            "a4" : "Corphish",
+            "correct" : "Primeape"
+        },
+        {
+            "q" : "Which Pokemon was Ash's eleventh Pokemon?",
+            "a1" : "Raichu Alola",
+            "a2" : "Muk",
+            "a3" : "Starly",
+            "a4" : "Floette",
+            "correct" : "Muk"
+        },
+        {
+            "q" : "Which Pokemon was Ash's twelfth Pokemon?",
+            "a1" : "Mantyke",
+            "a2" : "Nihilego",
+            "a3" : "Fomantis",
+            "a4" : "Tauros",
+            "correct" : "Tauros"
+        },
+        {
+            "q" : "Which Pokemon was Ash's thirteenth Pokemon?",
+            "a1" : "Heatran",
+            "a2" : "Skarmory",
+            "a3" : "Celebi",
+            "a4" : "Lapras",
+            "correct" : "Lapras"
+        },
+        {
+            "q" : "Which Pokemon was Ash's fourteenth Pokemon?",
+            "a1" : "Clamperl",
+            "a2" : "Zebstrika",
+            "a3" : "Snorlax",
+            "a4" : "Armaldo",
+            "correct" : "Snorlax"
+        },
+        {
+            "q" : "Which Pokemon was Ash's fifteenth Pokemon?",
+            "a1" : "Nincada",
+            "a2" : "Heracross",
+            "a3" : "Metapod",
+            "a4" : "Beartic",
+            "correct" : "Heracross"
+        },
+        {
+            "q" : "Which Pokemon was Ash's sixteenth Pokemon?",
+            "a1" : "Chikorita",
+            "a2" : "Lombre",
+            "a3" : "Crawdaunt",
+            "a4" : "Maractus",
+            "correct" : "Chikorita"
+        },
+        {
+            "q" : "Which Pokemon was Ash's seventeenth Pokemon?",
+            "a1" : "Cyndaquil",
+            "a2" : "Escavalier",
+            "a3" : "Floette",
+            "a4" : "Bewear",
+            "correct" : "Cyndaquil"
+        },
+        {
+            "q" : "Which Pokemon was Ash's eighteenth Pokemon?",
+            "a1" : "Tirtouga",
+            "a2" : "Phione",
+            "a3" : "Totodile",
+            "a4" : "Bellsprout",
+            "correct" : "Totodile"
+        },
+        {
+            "q" : "Which Pokemon was Ash's nineteenth Pokemon?",
+            "a1" : "Talonflame",
+            "a2" : "Shiny Noctowl",
+            "a3" : "Golisopod",
+            "a4" : "Gardevoir Mega",
+            "correct" : "Shiny Noctowl"
+        },
+        {
+            "q" : "Which Pokemon was Ash's twentieth Pokemon?",
+            "a1" : "Venusaur",
+            "a2" : "Vivilion",
+            "a3" : "Beedrill",
+            "a4" : "Sunkern",
+            "correct" : "Beedrill"
+        },
+        {
+            "q" : "Which Pokemon was Ash's twenty-first Pokemon?",
+            "a1" : "Crustle",
+            "a2" : "Phanpy",
+            "a3" : "Mimikyu",
+            "a4" : "Tornadius Therian",
+            "correct" : "Phanpy"
+        },
+        {
+            "q" : "Which Pokemon was Ash's twenty-second Pokemon?",
+            "a1" : "Larvitar",
+            "a2" : "Zapdos",
+            "a3" : "Spoink",
+            "a4" : "Gorebyss",
+            "correct" : "Larvitar"
+        },
+        {
+            "q" : "Which Pokemon was Ash's twenty-third Pokemon?",
+            "a1" : "Tailow",
+            "a2" : "Shaymin Sky",
+            "a3" : "Gliscor",
+            "a4" : "Lycanroc",
+            "correct" : "Tailow"
+        },
+        {
+            "q" : "Which Pokemon was Ash's twenty-fourth Pokemon?",
+            "a1" : "Vulpix",
+            "a2" : "Skiploom",
+            "a3" : "Pidgey",
+            "a4" : "Treecko",
+            "correct" : "Treecko"
+        },
+        {
+            "q" : "Which Pokemon was Ash's twenty-fifth Pokemon?",
+            "a1" : "Nuzleaf",
+            "a2" : "Bronzor",
+            "a3" : "Corphish",
+            "a4" : "Relicanth",
+            "correct" : "Corphish"
+        },
+        {
+            "q" : "Which Pokemon was Ash's twenty-sixth Pokemon?",
+            "a1" : "Bouffalant",
+            "a2" : "Torkoal",
+            "a3" : "Miltank",
+            "a4" : "Koffing",
+            "correct" : "Torkoal"
+        },
+        {
+            "q" : "Which Pokemon was Ash's twenty-seventh Pokemon?",
+            "a1" : "Snorunt",
+            "a2" : "Victini",
+            "a3" : "Spritzee",
+            "a4" : "Illumise",
+            "correct" : "Snorunt"
+        },
+        {
+            "q" : "Which Pokemon was Ash's twenty-eighth Pokemon?",
+            "a1" : "Aipom",
+            "a2" : "Shroomish",
+            "a3" : "Cradily",
+            "a4" : "Eevee",
+            "correct" : "Aipom"
+        },
+        {
+            "q" : "Which Pokemon was Ash's twenty-ninth Pokemon?",
+            "a1" : "Brionne",
+            "a2" : "Vaporeon",
+            "a3" : "Starly",
+            "a4" : "Magcargo",
+            "correct" : "Starly"
+        },
+        {
+            "q" : "Which Pokemon was Ash's thirtieth Pokemon?",
+            "a1" : "Poliwrath",
+            "a2" : "Turtwig",
+            "a3" : "Luvdisc",
+            "a4" : "Uxie",
+            "correct" : "Turtwig"
+        },
+        {
+            "q" : "Which Pokemon was Ash's thirty-first Pokemon?",
+            "a1" : "Braixen",
+            "a2" : "Grumpig",
+            "a3" : "Chimchar",
+            "a4" : "Diancie",
+            "correct" : "Chimchar"
+        },
+        {
+            "q" : "Which Pokemon was Ash's thirty-second Pokemon?",
+            "a1" : "Ralts",
+            "a2" : "Golduck",
+            "a3" : "Chansey",
+            "a4" : "Buizel",
+            "correct" : "Buizel"
+        },
+        {
+            "q" : "Which Pokemon was Ash's thirty-third Pokemon?",
+            "a1" : "Gligar",
+            "a2" : "Dratini",
+            "a3" : "Yanma",
+            "a4" : "Lickitung",
+            "correct" : "Gligar"
+        },
+        {
+            "q" : "Which Pokemon was Ash's thirty-fourth Pokemon?",
+            "a1" : "Arceus",
+            "a2" : "Golisopod",
+            "a3" : "Gible",
+            "a4" : "Spinarak",
+            "correct" : "Gible"
+        },
+        {
+            "q" : "Which Pokemon was Ash's thirty-fifth Pokemon?",
+            "a1" : "Pidove",
+            "a2" : "Excadrill",
+            "a3" : "Tornadus Therian",
+            "a4" : "Seadra",
+            "correct" : "Pidove"
+        },
+        {
+            "q" : "Which Pokemon was Ash's thirty-sixth Pokemon?",
+            "a1" : "Metagross",
+            "a2" : "Sewaddle",
+            "a3" : "Chator",
+            "a4" : "Bronzor",
+            "correct" : "Sewaddle"
+        },
+        {
+            "q" : "Which Pokemon was Ash's thirty-seventh Pokemon?",
+            "a1" : "Carbink",
+            "a2" : "Garbodor",
+            "a3" : "Zangoose",
+            "a4" : "Roggenrola",
+            "correct" : "Roggenrola"
+        },
+        {
+            "q" : "Which Pokemon was Ash's thirty-eighth Pokemon?",
+            "a1" : "Staryu",
+            "a2" : "Hoothoot",
+            "a3" : "Cottonee",
+            "a4" : "Palpitoad",
+            "correct" : "Palpitoad"
+        },
+        {
+            "q" : "Which Pokemon was Ash's thirty-ninth Pokemon?",
+            "a1" : "Virizion",
+            "a2" : "Sealeo",
+            "a3" : "Scraggy",
+            "a4" : "Sylveon",
+            "correct" : "Scraggy"
+        },
+        {
+            "q" : "Which Pokemon was Ash's fourtieth Pokemon?",
+            "a1" : "Barboach",
+            "a2" : "Oshawott",
+            "a3" : "Golbat",
+            "a4" : "Helioptile",
+            "correct" : "Oshawott"
+        },
+        {
+            "q" : "Which Pokemon was Ash's fourty-first Pokemon?",
+            "a1" : "Tepig",
+            "a2" : "Slowbro",
+            "a3" : "Pineco",
+            "a4" : "Galvantula",
+            "correct" : "Tepig"
+        },
+        {
+            "q" : "Which Pokemon was Ash's fourty-second Pokemon?",
+            "a1" : "Petilil",
+            "a2" : "Pansear",
+            "a3" : "Pyroar",
+            "a4" : "Snivy",
+            "correct" : "Snivy"
+        },
+        {
+            "q" : "Which Pokemon was Ash's fourty-third Pokemon?",
+            "a1" : "Seedot",
+            "a2" : "Shuppet",
+            "a3" : "Krokorok",
+            "a4" : "Girafarig",
+            "correct" : "Krokorok"
+        },
+        {
+            "q" : "Which Pokemon was Ash's fourty-fourth Pokemon?",
+            "a1" : "Pachirisu",
+            "a2" : "Froakie",
+            "a3" : "Riolu",
+            "a4" : "Lunatone",
+            "correct" : "Froakie"
+        },
+        {
+            "q" : "Which Pokemon was Ash's fourty-fifth Pokemon?",
+            "a1" : "Fletchling",
+            "a2" : "Tornadus",
+            "a3" : "Excadrill",
+            "a4" : "Victreebel",
+            "correcth" : "Fletchling"
+        },
+        {
+            "q" : "Which Pokemon was Ash's fourty-sixth Pokemon?",
+            "a1" : "Goomy",
+            "a2" : "Psyduck",
+            "a3" : "Nidorina",
+            "a4" : "Wartortle",
+            "correct" : "Goomy"
+        },
+        {
+            "q" : "Which Pokemon was Ash's fourty-seventh Pokemon?",
+            "a1" : "Cyndaquil",
+            "a2" : "Munchlax",
+            "a3" : "Noibat",
+            "a4" : "Combee",
+            "correct" : "Noibat"
+        },
+        {
+            "q" : "Which Pokemon was Ash's fourty-eighth Pokemon?",
+            "a1" : "Numel",
+            "a2" : "Sentret",
+            "a3" : "Spritzee",
+            "a4" : "Hawlucha",
+            "correct" : "Hawlucha"
+        },
+        {
+            "q" : "Which Pokemon was Ash's fourty-ninth Pokemon?",
+            "a1" : "Rowlet",
+            "a2" : "Machoke",
+            "a3" : "Empoleon",
+            "a4" : "Crabrawler",
+            "correct" : "Rowlet"
+        },
+        {
+            "q" : "Which Pokemon was Ash's fifthieth Pokemon?",
+            "a1" : "Camperupt",
+            "a2" : "Cosmog",
+            "a3" : "Rockruff",
+            "a4" : "Lotad",
+            "correct" : "Rockruff"
+        }
+    ],
+
+    "mediumQuestions" : [
+        {
+            "q" : "Which legendary Pokemon is the first according to Pokedex?",
+            "a1" : "Zapdos",
+            "a2" : "Articuno",
+            "a3" : "Ho-Oh",
+            "a4" : "Moltres",
+            "correct" : "Articuno"
+        },
+        {
+            "q" : "Which legendary Pokemon is the second according to Pokedex?",
+            "a1" : "Zapdos",
+            "a2" : "Articuno",
+            "a3" : "Ho-Oh",
+            "a4" : "Moltres",
+            "correct" : "Zapdos"
+        },
+        {
+            "q" : "Which legendary Pokemon is the third according to Pokedex?",
+            "a1" : "Zapdos",
+            "a2" : "Articuno",
+            "a3" : "Ho-Oh",
+            "a4" : "Moltres",
+            "correct" : "Moltres"
+        },
+        {
+            "q" : "Which legendary Pokemon is the fourth according to Pokedex?",
+            "a1" : "Mewtwo",
+            "a2" : "Entei",
+            "a3" : "Suicune",
+            "a4" : "Lugia",
+            "correct" : "Mewtwo"
+        },
+        {
+            "q" : "Which legendary Pokemon is the fifth according to Pokedex?",
+            "a1" : "Raikou",
+            "a2" : "Mew",
+            "a3" : "Suicune",
+            "a4" : "Lugia",
+            "correct" : "Mew"
+        },
+        {
+            "q" : "Which legendary Pokemon is the sixth according to Pokedex?",
+            "a1" : "Raikou",
+            "a2" : "Entei",
+            "a3" : "Torchic",
+            "a4" : "Lugia",
+            "correct" : "Raikou"
+        },
+        {
+            "q" : "Which legendary Pokemon is the seventh according to Pokedex?",
+            "a1" : "Raikou",
+            "a2" : "Entei",
+            "a3" : "Suicune",
+            "a4" : "Rayquaza",
+            "correct" : "Entei"
+        },
+        {
+            "q" : "Which legendary Pokemon is the eighth according to Pokedex?",
+            "a1" : "Celebi",
+            "a2" : "Ho-Oh",
+            "a3" : "Lugia",
+            "a4" : "Suicine",
+            "correct" : "Suicine"
+        },
+        {
+            "q" : "Which legendary Pokemon is the ninth according to Pokedex?",
+            "a1" : "Pikachu",
+            "a2" : "Raichu",
+            "a3" : "Lugia",
+            "a4" : "Pichu",
+            "correct" : "Lugia"
+        },
+        {
+            "q" : "Which legendary Pokemon is the tenth according to Pokedex?",
+            "a1" : "Zapdos",
+            "a2" : "Mewtwo",
+            "a3" : "Victini",
+            "a4" : "Ho-Oh",
+            "correct" : "Ho-Oh"
+        }
+    ]
+}
