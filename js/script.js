@@ -156,13 +156,13 @@ function updateTime(){
 }
 //------------------------------------------------------------//
 
-function optionsLoad(info){
-    injectOptions.innerHTML = info;
-}
-
 injectOptionsBtn.addEventListener('click', function (event){
     loadJSON("../options.html");
 });
+
+function optionsLoad(info){
+    injectOptions.innerHTML = info;
+}
 
 //------------------------------------------------------------//
 
